@@ -1,0 +1,44 @@
+.pomodoro-app {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.tasks,
+.timer,
+.add-task {
+    width: 30%;
+}
+
+.tasks h3,
+.timer h2,
+.add-task h3 {
+    margin-bottom: 10px;
+}
+
+.timer-display {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.timer-controls button,
+.add-task button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.timer-controls button:hover,
+.add-task button:hover {
+    background-color: #ff6347;
+}
+
+.error-message {
+    color: red;
+}
